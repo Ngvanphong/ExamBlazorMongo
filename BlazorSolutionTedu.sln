@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{533E748D-F795-414A-8AB7-DAA64E5CF652}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.API", "src\Identity.API\Identity.API.csproj", "{3BAFCE7C-4824-40FD-AD25-8F0E4FC8B80D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.API", "src\Identity\Identity.API\Identity.API.csproj", "{3BAFCE7C-4824-40FD-AD25-8F0E4FC8B80D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examination", "Examination", "{0C6DA386-D736-4576-B50F-3036906C283A}"
 EndProject
@@ -21,7 +21,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B0B733A9-1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity.API", "Identity.API", "{47D06BB7-71CD-4E22-9C4C-A3AC1C89E192}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.API.IntegrationTests", "tests\Identity.API\Identity.API.IntegrationTests\Identity.API.IntegrationTests.csproj", "{5A4CBF07-0C06-4F86-9E4D-74395CFD662F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.API.IntegrationTests", "tests\Identity\Identity.API.IntegrationTests\Identity.API.IntegrationTests.csproj", "{5A4CBF07-0C06-4F86-9E4D-74395CFD662F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examination", "Examination", "{63490B71-2576-4C5A-9D81-4D2043444B48}"
 EndProject
