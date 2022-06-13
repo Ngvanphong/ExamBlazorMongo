@@ -93,7 +93,6 @@ app.UseIdentityServer();
 
 app.UseAuthorization();
 
-
 app.MapControllers();
 
 app.Run();
