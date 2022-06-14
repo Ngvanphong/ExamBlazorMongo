@@ -14,6 +14,7 @@ namespace Identity.API.Database
         {
           
            builder.ApplyConfiguration(new AppUserConfiguration());
+           base.OnModelCreating(builder);
         }
     }
 }

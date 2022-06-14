@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using IdentityServer4.Services;
 using Identity.API.Services;
+using Identity.API;
 
 var builder = WebApplication.CreateBuilder(args);
 var migrationAssembly = typeof(Program).GetTypeInfo().Assembly.GetName().Name;
@@ -37,6 +38,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(
 
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
 .AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
+builder.Services.Configure<AppSettings>(builder.Configuration);
 
 builder.Services.AddIdentityServer(x =>
 {
@@ -96,3 +98,5 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+
